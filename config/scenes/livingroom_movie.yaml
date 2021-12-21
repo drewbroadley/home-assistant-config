@@ -1,0 +1,15 @@
+---
+# Scene: Living Room: Watching a Movie
+#
+# Used when watching a movie on the TV
+#
+id: "27369c22-c995-4ec1-9973-1ee538ee4a22"
+name: "Living Room: Watching a Movie"
+icon: mdi:movie-open
+entities:
+  media_player.stereo:
+    volume: 50
+    source: tv
+  media_player.living_room_tv:
+    volume: 50
+    source: tv

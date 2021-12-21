@@ -1,0 +1,12 @@
+---
+# Scene: Hall Cleaning
+#
+# Used when cleaning the hall, as much light as possible!
+#
+id: "49940a43-3a3e-4a97-9a92-828d89048765"
+name: "Living Room: Listening to Music"
+icon: mdi:music-g-clef
+entities:
+  media_player.stereo:
+    volume: 40
+    source: pc

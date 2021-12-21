@@ -9,14 +9,14 @@
 binary_sensor:
   - platform: workday
     name: holiday
-    country: NL
+    country: NZ
     workdays:
       - holiday
     excludes: []
   # TODO: Move to template sensor
   - platform: workday
     name: workday
-    country: NL
+    country: NZ
     workdays:
       - mon
       - tue

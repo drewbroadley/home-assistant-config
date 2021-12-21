@@ -17,4 +17,4 @@ action:
   - service: frontend.set_theme
     data:
       name: outline
-      mode: light
+      mode: dark

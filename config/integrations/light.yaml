@@ -4,4 +4,4 @@
 #
 # https://www.home-assistant.io/integrations/light/
 #
-light: !include_dir_list ../entities/lights
+media_player: !include_dir_list ../entities/media_player
