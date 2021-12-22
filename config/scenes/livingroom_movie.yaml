@@ -10,6 +10,3 @@ entities:
   media_player.living_room_stereo:
     volume: 50
     source: tv
-  media_player.living_room_tv:
-    volume: 50
-    source: tv
