@@ -1,8 +1,9 @@
 ---
 platform: onkyo
-id: "bd185c5d-2155-495c-945c-22303da45ab6"
 host: 192.168.1.130
 name: "Living Room Stereo"
+max_volume: 100
+receiver_max_volume: 70
 sources:
   pc: "Streaming"
   tv/cd: "TV"
