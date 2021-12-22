@@ -1,19 +1,21 @@
-- alias: Spotify Connect begins playing 
-  trigger:
-    - platform: state
-      entity_id: media_player.living_room_stereo_streamer
-      to: 'playing'
-      from: 'idle'
-    - platform: state
-      entity_id: media_player.living_room_stereo_streamer
-      to: 'playing'
-      from: 'off'
-  action:
-    - service: media_player.turn_on
+---
+alias: Spotify Connect begins playing
+id: "1e1d9ab0-bf98-4ca3-b982-02c3bc36d311"
+trigger:
+  - platform: state
+    entity_id: media_player.living_room_stereo_streamer
+    to: 'playing'
+    from: 'idle'
+  - platform: state
+    entity_id: media_player.living_room_stereo_streamer
+    to: 'playing'
+    from: 'off'
+action:
+  - service: media_player.turn_on
+    #change this to match your AVR
+    entity_id: media_player.living_room_stereo
+  - service: media_player.select_source
+    data:
       #change this to match your AVR
       entity_id: media_player.living_room_stereo
-    - service: media_player.select_source
-      data:
-        #change this to match your AVR
-        entity_id: media_player.living_room_stereo
-        source: pc
+      source: pc
