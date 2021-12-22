@@ -8,5 +8,8 @@ name: "Living Room: Listening to Music"
 icon: mdi:music-g-clef
 entities:
   media_player.living_room_stereo:
+    state: on
     volume: 40
     source: pc
+  media_player.living_room_tv:
+    state: off
