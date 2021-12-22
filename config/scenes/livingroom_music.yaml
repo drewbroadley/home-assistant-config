@@ -4,7 +4,7 @@
 # Used when cleaning the hall, as much light as possible!
 #
 id: "49940a43-3a3e-4a97-9a92-828d89048765"
-name: "Living Room: Listening to Music"
+name: "Stereo to listen to music"
 icon: mdi:music-g-clef
 entities:
   media_player.living_room_stereo:
