@@ -3,11 +3,13 @@
 #
 # Used when watching a movie on the TV
 #
-id: "c3ec8a09-c095-422c-96f2-498ac84e9ac3"
-name: "Nothing Playing in Living Room"
+id: "27369c22-c995-4ec1-9973-1ee538ee4a22"
+name: "Watching Movie in Living Room"
 icon: mdi:movie-open
 entities:
   media_player.living_room_stereo:
-    state: off
+    state: on
+    volume: 40
+    source: tv
   media_player.living_room_tv:
-    state: off
+    state: on
