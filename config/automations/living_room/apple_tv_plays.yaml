@@ -7,5 +7,5 @@ trigger:
     to: 'playing'
 action:
   - service: scene.turn_on
-      target:
-        entity_id: scene.watching_movie_in_living_room
+    target:
+      entity_id: scene.watching_movie_in_living_room
