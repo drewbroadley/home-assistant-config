@@ -1,0 +1,14 @@
+---
+id: 'b7c5df75-bc80-4676-8cc1-3244293e3407'
+alias: Playing Music
+description: ''
+trigger:
+- platform: device
+  device_id: de5395987a4da20850adab3e2a8a57f8
+  domain: media_player
+  entity_id: media_player.living_room_stereo_streamer
+  type: playing
+condition: []
+action:
+- scene: scene.listening_to_music_in_living_room
+mode: single

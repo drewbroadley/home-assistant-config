@@ -1,0 +1,14 @@
+---
+id: 'fd068548-7d00-464d-a7c4-fb203afa5ea9'
+alias: Playing Movie
+description: ''
+trigger:
+- platform: device
+  device_id: 164533a6757eb13fca52c6520f0d9165
+  domain: media_player
+  entity_id: media_player.living_room_tv
+  type: playing
+condition: []
+action:
+- scene: scene.watching_movie_in_living_room
+mode: single
