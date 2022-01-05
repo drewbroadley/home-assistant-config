@@ -3,7 +3,7 @@
 #
 # Used when watching a movie on the TV
 #
-id: "27369c22-c995-4ec1-9973-1ee538ee4a22"
+id: "c3ec8a09-c095-422c-96f2-498ac84e9ac3"
 name: "Nothing Playing in Living Room"
 icon: mdi:movie-open
 entities:
