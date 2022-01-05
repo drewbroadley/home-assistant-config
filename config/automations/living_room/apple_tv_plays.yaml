@@ -1,21 +1,11 @@
 ---
-alias: Lounge Apple TV  begins playing
+alias: Lounge Apple TV begins playing
 id: "c1ca90e7-e28f-4df8-861f-f60d800fe6e6"
 trigger:
   - platform: state
     entity_id: media_player.living_room_tv
     to: 'playing'
-    from: 'idle'
-  - platform: state
-    entity_id: media_player.living_room_tv
-    to: 'playing'
-    from: 'off'
 action:
-  - service: media_player.turn_on
-    #change this to match your AVR
-    entity_id: media_player.living_room_stereo
-  - service: media_player.select_source
-    data:
-      #change this to match your AVR
-      entity_id: media_player.living_room_stereo
-      source: tv/cd
+  - service: scene.turn_on
+      target:
+        entity_id: scene.watching_movie_in_living_room
