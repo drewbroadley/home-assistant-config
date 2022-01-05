@@ -1,0 +1,17 @@
+---
+alias: Living Room - Nothing Playing
+id: "c1ca90e7-e28f-4df8-861f-f60d800fe6e6"
+trigger:
+  - platform: state
+    entity_id: media_player.living_room_tv
+    to: 'off'
+  - platform: state
+    entity_id: media_player.living_room_stereo_streamer
+    to: 'paused'
+  - platform: state
+    entity_id: media_player.living_room_stereo_streamer
+    to: 'off'
+action:
+  - service: scene.turn_on
+    target:
+      entity_id: scene.nothing_playing_in_living_room
